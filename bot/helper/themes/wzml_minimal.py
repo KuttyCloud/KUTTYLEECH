@@ -2,12 +2,12 @@
 class WZMLStyle:
     # ----------------------
     # async def start(client, message) ---> __main__.py
-    ST_BN1_NAME = '🙋 Owner'
-    ST_BN1_URL = 'https://t.me/iamxDarshan'
-    ST_BN2_NAME = 'Creator 😎'
+    ST_BN1_NAME = '🙋 Oᴡɴᴇʀ'
+    ST_BN1_URL = 'https://t.me/Itzz_Kutty'
+    ST_BN2_NAME = 'Cʀᴇᴀᴛᴏʀ 😎'
     ST_BN2_URL = 'https://t.me/HeartThieft_bot'
-    ST_BN3_NAME = 'Updates 📑'
-    ST_BN3_URL = 'https://t.me/MSxLeech_Area'
+    ST_BN3_NAME = 'Uᴘᴅᴀᴛᴇs 📑'
+    ST_BN3_URL = 'https://t.me/TamilXLeech'
     ST_MSG = '''<i>Tʜɪs ʙᴏᴛ ᴄᴀɴ ᴍɪʀʀᴏʀ ᴀʟʟ ʏᴏᴜʀ ʟɪɴᴋs|ғɪʟᴇs|ᴛᴏʀʀᴇɴᴛs ᴛᴏ Gᴏᴏɢʟᴇ Dʀɪᴠᴇ ᴏʀ ᴀɴʏ ʀᴄʟᴏɴᴇ ᴄʟᴏᴜᴅ ᴏʀ ᴛᴏ ᴛᴇʟᴇɢʀᴀᴍ ᴏʀ ᴛᴏ ᴅᴅʟ sᴇʀᴠᴇʀs.</i>
 <b>Tʏᴘᴇ {help_command} ᴛᴏ ɢᴇᴛ ᴀ ʟɪsᴛ ᴏғ ᴀᴠᴀɪʟᴀʙʟᴇ ᴄᴏᴍᴍᴀɴᴅs</b>'''
     ST_BOTPM = '''<i>Nᴏᴡ, Tʜɪs ʙᴏᴛ ᴡɪʟʟ sᴇɴᴅ ᴀʟʟ ʏᴏᴜʀ ғɪʟᴇs ᴀɴᴅ ʟɪɴᴋs ʜᴇʀᴇ. Sᴛᴀʀᴛ Usɪɴɢ ...</i>'''
@@ -59,7 +59,7 @@ class WZMLStyle:
 ┃ <b>Total Disk Write :</b> {disk_write}
 ┖ <b>U :</b> {disk_u} | <b>F :</b> {disk_f} | <b>T :</b> {disk_t}
 
- <a href="https://t.me/MSxLeech_Area"><b>𝐏ᴏᴡᴇʀᴇᴅ 𝐁ʏ ›› 𝐌ꜱ ✘ 𝐋ᴇᴇᴄʜ 𝐀ʀᴇᴀ ❤️‍🔥🥂</b></a>  
+ 𝐏ᴏᴡᴇʀᴇᴅ 𝐁ʏ ››<a href="https://t.me/TamilXLeech"><b> ͲąʍìӀ ✘ Ꝉҽҽçհ 🥂</b></a>  
     '''
     SYS_STATS = '''🛠 <b><i>Os Sʏsᴛᴇᴍ :</i></b>
 ┠ <b>⏰ OS Uptime :</b> {os_uptime}
@@ -81,7 +81,7 @@ class WZMLStyle:
 ┠ <b>Total Core(s) :</b> {total_core}
 ┖ <b>Usable CPU(s) :</b> {cpu_use}
 
-<a href="https://t.me/MSxLeech_Area"><b>𝐏ᴏᴡᴇʀᴇᴅ 𝐁ʏ ›› 𝐌ꜱ ✘ 𝐋ᴇᴇᴄʜ 𝐀ʀᴇᴀ ❤️‍🔥🥂</b></a>
+𝐏ᴏᴡᴇʀᴇᴅ 𝐁ʏ ››<a href="https://t.me/TamilXLeech"><b> ͲąʍìӀ ✘ Ꝉҽҽçհ 🥂</b></a>
     '''
     REPO_STATS = '''🧑‍💻 <b><i>Rᴇᴘᴏ Sᴛᴀᴛɪsᴛɪᴄs :</i></b>
 ┠ <b>🕶️🤏 Bot Updated :</b> {last_commit}
@@ -91,7 +91,7 @@ class WZMLStyle:
 
 💥 <b>REMARKS :</b> <code>{remarks}</code>
 
-<a href="https://t.me/MSxLeech_Area"><b>𝐏ᴏᴡᴇʀᴇᴅ 𝐁ʏ ›› 𝐌ꜱ ✘ 𝐋ᴇᴇᴄʜ 𝐀ʀᴇᴀ ❤️‍🔥🥂</b></a>
+𝐏ᴏᴡᴇʀᴇᴅ 𝐁ʏ ››<a href="https://t.me/TamilXLeech"><b> ͲąʍìӀ ✘ Ꝉҽҽçհ 🥂</b></a>
     '''
     BOT_LIMITS = '''⌬ <b><i>Bᴏᴛ Lɪᴍɪᴛᴀᴛɪᴏɴs :</i></b>
 ┠ <b>🎯 Dɪʀᴇᴄᴛ Lɪᴍɪᴛ :</b> {DL} Gʙ
@@ -108,7 +108,7 @@ class WZMLStyle:
 ┠ <b>👤 Usᴇʀ Pᴀʀᴀʟʟᴇʟ Tᴀsᴋs :</b> {UT}
 ┖ <b>🚧 Bᴏᴛ Pᴀʀᴀʟʟᴇʟ Tᴀsᴋs :</b> {BT}
 
-<a href="https://t.me/MSxLeech_Area"><b>𝐏ᴏᴡᴇʀᴇᴅ 𝐁ʏ ›› 𝐌ꜱ ✘ 𝐋ᴇᴇᴄʜ 𝐀ʀᴇᴀ ❤️‍🔥🥂</b></a>
+𝐏ᴏᴡᴇʀᴇᴅ 𝐁ʏ ››<a href="https://t.me/TamilXLeech"><b> ͲąʍìӀ ✘ Ꝉҽҽçհ 🥂</b></a>
     '''
     # ---------------------
 
@@ -182,7 +182,7 @@ class WZMLStyle:
 
     # def get_readable_message(): ---> bot_utilis.py
     ####--------OVERALL MSG HEADER----------
-    STATUS_NAME =       '<b>🎥ɴᴀᴍᴇ: :</b> <code>{Name}</code>\n┎━━━━ « <a href="https://t.me/MSxLeech_Area"><b>𝐌ꜱ ✘ 𝐋ᴇᴇᴄʜ</b></a> » ━━━━༻'
+    STATUS_NAME =       '<b>🎥ɴᴀᴍᴇ: :</b> <code>{Name}</code>\n┎━━━━ « <a href="https://t.me/TamilXLeech"><b>ͲąʍìӀ ✘ Ꝉҽҽçհ</b></a> » ━━━━༻'
 
     #####---------PROGRESSIVE STATUS-------
     BAR =               '\n┃ {Bar}'
@@ -213,7 +213,7 @@ class WZMLStyle:
     USER =           '\n┠ <b>🪪ᴜsᴇʀ:</b> <code>{User}</code>'
     ID =             '\n┠ <b>🆔ɪᴅ:</b> <code>{Id}</code>'
     BTSEL =          '\n┠ <b>💫sᴇʟᴇᴄᴛ:</b> {Btsel}'
-    CANCEL =         '\n┠ {Cancel}\n┖━━━━ « <a href="https://t.me/MSxLeech_Area"><b>𝐌ꜱ ✘ 𝐋ᴇᴇᴄʜ</b></a> » ━━━━༻\n'
+    CANCEL =         '\n┠ {Cancel}\n┖━━━━ « <a href="https://t.me/TamilXLeech"><b>ͲąʍìӀ ✘ Ꝉҽҽçհ</b></a> » ━━━━༻\n'
 
     ####------FOOTER--------
     FOOTER = '⌬ <b><i>ʙᴏᴛ sᴛᴀᴛs</i></b>\n'
@@ -273,7 +273,7 @@ class WZMLStyle:
 ➲ <u><b>Available Args:</b></u>
 • <b>-s</b> or <b>-set</b>: Set Directly via Arg
 
-<a href="https://t.me/MSxLeech_Area"><b>𝐏ᴏᴡᴇʀᴇᴅ 𝐁ʏ ›› 𝐌ꜱ ✘ 𝐋ᴇᴇᴄʜ 𝐀ʀᴇᴀ ❤️‍🔥🥂</b></a>'''
+𝐏ᴏᴡᴇʀᴇᴅ 𝐁ʏ ››<a href="https://t.me/TamilXLeech"><b> ͲąʍìӀ ✘ Ꝉҽҽçհ 🥂</b></a>'''
 
     UNIVERSAL = '''㊂ <b><u>Universal Settings : {NAME}</u></b>
 
@@ -285,7 +285,7 @@ class WZMLStyle:
 ┠<b>📥 Save Mode :</b> <code>{SAVE_MODE}</code>
 ┖<b>📩 User Bot PM :</b> <code>{BOT_PM}</code>
 
-<a href="https://t.me/MSxLeech_Area"><b>𝐏ᴏᴡᴇʀᴇᴅ 𝐁ʏ ›› 𝐌ꜱ ✘ 𝐋ᴇᴇᴄʜ 𝐀ʀᴇᴀ ❤️‍🔥🥂</b></a>'''
+𝐏ᴏᴡᴇʀᴇᴅ 𝐁ʏ ››<a href="https://t.me/TamilXLeech"><b> ͲąʍìӀ ✘ Ꝉҽҽçհ 🥂</b></a>'''
 
     MIRROR = '''㊂ <b><u>Mirror/Clone Settings : {NAME}</u></b>
 
@@ -298,7 +298,7 @@ class WZMLStyle:
 ┠<b>📮 Total User TD(s) :</b> <i>{USERTD}</i>
 ┖<b>☁️ Daily Mirror :</b> <code>{DM}</code> per day
 
-<a href="https://t.me/MSxLeech_Area"><b>𝐏ᴏᴡᴇʀᴇᴅ 𝐁ʏ ›› 𝐌ꜱ ✘ 𝐋ᴇᴇᴄʜ 𝐀ʀᴇᴀ ❤️‍🔥🥂</b></a>'''
+𝐏ᴏᴡᴇʀᴇᴅ 𝐁ʏ ››<a href="https://t.me/TamilXLeech"><b> ͲąʍìӀ ✘ Ꝉҽҽçհ 🥂</b></a>'''
 
     LEECH = '''㊂ <b><u>Leech Settings for {NAME}</u></b>
 
@@ -315,4 +315,4 @@ class WZMLStyle:
 ┖<b>🌈 Leech Remname :</b> <code>{LREMNAME}</code>
 ┗<b>〽️ Metadata :</b> <code>{LMETA}</code>
 
-<a href="https://t.me/MSxLeech_Area"><b>𝐏ᴏᴡᴇʀᴇᴅ 𝐁ʏ ›› 𝐌ꜱ ✘ 𝐋ᴇᴇᴄʜ 𝐀ʀᴇᴀ ❤️‍🔥🥂</b></a>'''
+𝐏ᴏᴡᴇʀᴇᴅ 𝐁ʏ ››<a href="https://t.me/TamilXLeech"><b> ͲąʍìӀ ✘ Ꝉҽҽçհ 🥂</b></a>'''
