@@ -283,30 +283,39 @@ async def user_settings(client, message):
                 return await set_custom(client, reply_to, msg, set_arg, True)
             elif set_arg == 'thumb' and reply_to.media:
                 return await set_thumb(client, reply_to, msg, set_arg, True)
-        await editMessage(msg, '''㊂ <b><u>Available Flags :</u></b>
->> Reply to the Value with appropriate arg respectively to set directly without opening USet.
+        await editMessage(msg, '''  
+<b><u>Available Flags:</u></b>  
+> Reply to the value with the appropriate argument to set directly without opening USet.
 
-➲ <b>Custom Thumbnail :</b>
-    /cmd -s thumb
-➲ <b>Leech Filename Prefix :</b>
-    /cmd -s lprefix
-➲ <b>Leech Filename Suffix :</b>
-    /cmd -s lsuffix
-➲ <b>Leech Filename Remname :</b>
-    /cmd -s lremname
-➲ <b>Leech Metadata Text :</b>
-    /cmd -s lmeta
-➲ <b>Leech Filename Caption :</b>
-    /cmd -s lcaption
-➲ <b>YT-DLP Options :</b>
-    /cmd -s yt_opt
-➲ <b>Leech User Dump :</b>
-    /cmd -s ldump''')
-    else:
-        from_user = message.from_user
-        handler_dict[from_user.id] = False
-        msg, button = await get_user_settings(from_user)
-        await sendMessage(message, msg, button, 'IMAGES')
+➲ <b>Cᴜsᴛᴏᴍ Tʜᴜᴍʙɴᴀɪʟ:</b>  
+    /cmd -s <i>thumb</i>  
+
+➲ <b>Lᴇᴇᴄʜ Fɪʟᴇɴᴀᴍᴇ Pʀᴇғɪx:</b>  
+    /cmd -s <i>lprefix</i>  
+
+➲ <b>Lᴇᴇᴄʜ Fɪʟᴇɴᴀᴍᴇ Sᴜғғɪx:</b>  
+    /cmd -s <i>lsuffix</i>  
+
+➲ <b>Lᴇᴇᴄʜ Fɪʟᴇɴᴀᴍᴇ Rᴇɴᴀᴍᴇ:</b>  
+    /cmd -s <i>lremname</i>  
+
+➲ <b>Lᴇᴇᴄʜ Mᴇᴛᴀᴅᴀᴛᴀ:</b>  
+    /cmd -s <i>lmeta</i>  
+
+➲ <b>Lᴇᴇᴄʜ Fɪʟᴇɴᴀᴍᴇ Cᴀᴘᴛɪᴏɴ:</b>  
+    /cmd -s <i>lcaption</i>  
+
+➲ <b>YT-DLP Oᴘᴛɪᴏɴs:</b>  
+    /cmd -s <i>yt_opt</i>  
+
+➲ <b>Lᴇᴇᴄʜ Usᴇʀ Dᴜᴍᴘ:</b>  
+    /cmd -s <i>ldump</i>  
+''')
+else:
+    from_user = message.from_user
+    handler_dict[from_user.id] = False
+    msg, button = await get_user_settings(from_user)
+    await sendMessage(message, msg, button, 'IMAGES')
 
 
 async def set_custom(client, message, pre_event, key, direct=False):
