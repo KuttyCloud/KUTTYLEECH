@@ -141,12 +141,12 @@ def handleIndex(index, dic):
 def get_progress_bar_string(pct):
     pct = float(str(pct).strip('%'))
     p = min(max(pct, 0), 100)
-    cFull = int(p // 9)
-    cPart = int(p % 9 - 1)
+    cFull = int(p // 9.5)
+    cPart = int(p % 9.5 - 1)
     p_str = '▰' * cFull
     if cPart >= 0:
         p_str += ['▱', '▱', '▱', '▰', '▰', '▰', '▰'][cPart]
-    p_str += '▱' * (9 - cFull)
+    p_str += '▱' * (9.5 - cFull)
     return f"[{p_str}]"
 
 
