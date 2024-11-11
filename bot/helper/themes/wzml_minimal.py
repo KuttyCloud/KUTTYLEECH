@@ -182,7 +182,7 @@ class WZMLStyle:
 
     # def get_readable_message(): ---> bot_utilis.py
     ####--------OVERALL MSG HEADER----------
-    STATUS_NAME =       '<b>🎥ɴᴀᴍᴇ: :</b> <code>{Name}</code>\n┎━━━━ « <a href="https://t.me/TamilXLeech"><b>ͲąʍìӀ ✘ Ꝉҽҽçհ</b></a> » ━━━━༻'
+    STATUS_NAME =       '<b>🎥Nᴀᴍᴇ: :</b> <code>{Name}</code>\n┎━━━━ « <a href="https://t.me/TamilXLeech"><b>ͲąʍìӀ ✘ Ꝉҽҽçհ</b></a> » ━━━━༻'
 
     #####---------PROGRESSIVE STATUS-------
     BAR =               '\n┃ {Bar}'
